@@ -1,10 +1,13 @@
 package view;
 
+import controller.practice;
+
 public class MainPractice {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		practice f1 = new practice();
+		System.out.println("Foi dada a largada, está iniciado o treino da f1!");
+		f1.startpractice();
 	}
 
 }
